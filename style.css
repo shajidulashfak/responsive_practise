@@ -1,0 +1,21 @@
+.top-player img{
+    width: 70px;
+    height: 70px;
+}
+section{
+    width: 900px;
+    margin: 0 auto;
+}
+.top-player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.player h2{
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
